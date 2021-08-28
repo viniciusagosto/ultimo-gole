@@ -1,0 +1,41 @@
+body, html, input, textarea, select, button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.input-redondinho {
+    border: 0;
+    border-radius: 30px;
+    border: 1px solid #757575;
+    padding: 10px 15px;
+}
+
+.input-redondinho:focus {
+    border-color: #5061FF;
+    outline: none;
+    color: #5061FF;
+}
+
+.input-redondinho:focus::placeholder {
+    color: #5061FF;
+}
+
+.button-mug {
+    cursor: pointer;
+    background-color: #5061FF;
+    color: #ffffFF;
+    width: 110px;
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-mug div {
+
+    width: 20px;
+    height: 20px;
+
+}
