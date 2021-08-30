@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,38 @@
     <title>Ultimo Gole</title>
     <script src="https://kit.fontawesome.com/265036a923.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <form action="javascript:" id="form-dados">
-<div id="container">
-    <h2 class="dados1">Dados da 1ª Cerveja</h2>
+        <div id="container">
+            <h2 class="dados1">Dados da 1ª Cerveja</h2>
 
-    <input class="input-redondinho" name="name-1" type="text" required placeholder="Nome"/>
-    <input class="input-redondinho" name="price-1" type="number" min= "0.01" step="0.01" required  placeholder="Preço"/>
-    <input class="input-redondinho" name="ml-1" type="number" min= "1" step="1" required   placeholder="Quantidade (ml)"/>
+            <input id="name" class="input-redondinho" name="name-1" type="text" required placeholder="Nome" />
+            <input id="price" class="input-redondinho" name="price-1" type="number" min="0.01" step="0.01" required
+                placeholder="Preço" />
+            <input id="qtd" class="input-redondinho" name="ml-1" type="number" min="1" step="1" required
+                placeholder="Quantidade (ml)" />
 
-    <button class="button-mug" type="submit">
-        <span>Próximo</span>
-        <i class="fas fa-caret-right"></i>        
-    </button>
+            <button class="button-mug" type="submit">
+                <span>Próximo</span>
+                <i class="fas fa-caret-right"></i>
+            </button>
 
-    <button class="button-mug hidden" type="submit">
-        <span>Calcular</span>
-            <i class="fas fa-beer"></i>
-    </button>
+            <button class="button-mug hidden" type="submit">
+                <span>Calcular</span>
+                <i class="fas fa-beer"></i>
+            </button>
 
-</div>
+        </div>
     </form>
 
 
 
-    
+
 </body>
+
 </html>

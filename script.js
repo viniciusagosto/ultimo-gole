@@ -1,2 +1,4 @@
-const form=document.querySelector("#form-dados");
+let 
+const form = document.getElementById("#form-dados");
 
+form.addEventListener
