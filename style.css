@@ -1,0 +1,81 @@
+body, html, input, textarea, select, button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    
+}
+
+body, html {
+    background-color: #f2f2f2;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+ 
+
+#container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+#container input
+#container button {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-redondinho {
+    border: 0;
+    border-radius: 30px;
+    border: 1px solid #757575;
+    padding: 10px 15px;
+}
+
+.input-redondinho:focus {
+    border-color: #5061FF;
+    outline: none;
+    color: #5061FF;
+}
+
+.input-redondinho:focus::placeholder {
+    color: #5061FF;
+}
+
+.button-mug {
+    margin-top: auto;
+    padding: 50px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #5061FF;
+    color: #ffffFF;
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-mug div {
+    width: 20px;
+    height: 20px;
+}
+
+.button-mug i {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.dados1 {
+    color: #333333;
+    text-align: center;
+}
