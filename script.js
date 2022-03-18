@@ -1,4 +1,7 @@
 
+const form = document.getElementById("#form-dados");
+
+
 let count = 1 
 
 init()
